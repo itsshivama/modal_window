@@ -31,7 +31,7 @@ overlay.addEventListener("click", closeModal);
 // Hiding the Modal/pop-up when 'ESC' key is pressed
 // On a sidenote with what we have done with function(e) and stuff, is how basic keyloggers could be created
 document.addEventListener("keydown", function (e) {
-  console.log(e.key);
+  // console.log(e.key);
   if (
     e.key === "Escape" &&
     (!modal.classList.contains("hidden") ||
